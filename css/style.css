@@ -1,0 +1,142 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #42dca3;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
+}
+
+/*60*/
+.intro {
+    display: table;   
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+	height: 100%;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro-body{
+
+}
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 80px;
+    font-color:#fff;
+}
+
+.panel {
+    width: 100%;
+    padding-bottom: 50px;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
+    position: relative;
+    height: 100%;
+}
+.ad_zero{
+    background: url(../img/intro-bg.png) no-repeat center center scroll;
+}
+.ad_one {
+    background: url(../img/one-bg.png) no-repeat center center scroll;
+
+}
+.ad_two {
+
+    background: url(../img/two-bg.png) no-repeat center center scroll;
+
+}
+.ad_three {
+
+    background: url(../img/three-bg.png) no-repeat center center scroll;
+
+}
+.ad_four {
+
+    background: url(../img/four-bg.png) no-repeat center center scroll;
+
+}
+.ad_click{
+	position: absolute;
+    overflow: hidden;
+    bottom: 45px;
+    height: 90px;
+    width: 100%;
+}
+.ad_click img{
+    width: 85%;
+}
+.connect{
+
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+
+}
+
+.btn-default {
+    border: 1px solid #42dca3;
+    color: #42dca3;
+}
+/*css/style.css*/
